@@ -1,0 +1,5 @@
+SELECT apex_web_service.make_rest_request(
+p_url => 'https://green.maxapex.net/apex/gad_ws/hr/empinfo/',
+p_http_method => 'GET'
+) rest_ret
+FROM dual;
